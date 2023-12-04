@@ -1,7 +1,6 @@
 # Solution
 
 ```java
-
 public class Solution {
     public int solve(int[] A) {
 
@@ -24,6 +23,11 @@ public class Solution {
 
     }
 }
-
-
 ```
+
+## Time Complexity
+- O(n)
+
+
+## Space Complexity
+- O(1)
