@@ -1,4 +1,4 @@
-# 01 Equilibrium index of an array (Kadane's Algorithm)
+# 02 Equilibrium index of an array (Kadane's Algorithm)
 
 ## Problem Description
 
