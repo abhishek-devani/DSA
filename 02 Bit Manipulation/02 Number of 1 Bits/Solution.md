@@ -15,7 +15,6 @@ public class Solution {
 
     }
 }
-
 ```
 
 ### Time Complexity
