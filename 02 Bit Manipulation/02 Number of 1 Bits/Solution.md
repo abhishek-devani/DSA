@@ -23,11 +23,9 @@ public class Solution {
 
 #### Reason
 ```
-The reason for this time complexity is that the while loop iterates 
-through each bit of the binary representation of the input integer A. 
-In each iteration, the code performs a right shift operation (A = A >> 1), 
-effectively dividing the value of A by 2. Since the loop continues until A becomes 0, 
-the number of iterations is proportional to the number of bits in the binary representation of A, 
+The reason for this time complexity is that the while loop iterates through each bit of the binary representation of the input integer A. 
+In each iteration, the code performs a right shift operation (A = A >> 1), effectively dividing the value of A by 2. 
+Since the loop continues until A becomes 0, the number of iterations is proportional to the number of bits in the binary representation of A, 
 which is log N.
 ```
 
