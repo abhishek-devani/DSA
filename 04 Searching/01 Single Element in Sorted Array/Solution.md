@@ -1,7 +1,5 @@
 # Solution
 
-- Put the largest element at the last position by comparing two elements.
-
 ```java
 public class Solution {
     public int solve(int[] A) {

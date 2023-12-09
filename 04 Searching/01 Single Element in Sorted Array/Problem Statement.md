@@ -1,4 +1,4 @@
-# 02 Bubble Sort
+# 01 Single Element in Sorted Array
 
 ## Problem Description
 

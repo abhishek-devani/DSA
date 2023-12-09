@@ -1,9 +1,9 @@
-# 02 Bubble Sort
+# 02 Rotated Sorted Array Search
 
 ## Problem Description
 
 ```markdown
-Given a sorted array of integers `A` of size N and an integer B, 
+Given a sorted array of integers A of size N and an integer B, 
 where array A is rotated at some pivot unknown beforehand.
 
 For example, the array [0, 1, 2, 4, 5, 6, 7] might become [4, 5, 6, 7, 0, 1, 2].
@@ -13,28 +13,30 @@ Your task is to search for the target value B in the array. If found, return its
 You can assume that no duplicates exist in the array.
 ```
 
-**`Note:`** Users are expected to solve this in O(log(N)) time.
+**`Note:`** You are expected to solve this problem with a time complexity of O(log(N)).
 
 ---
 ## Problem Constraints
 
 ```
-1 <= |A| <= 100000
-1 <= A[i] <= 10^9
+1 <= N <= 1000000
+1 <= A[i] <= 109
+All elements in A are Distinct.
 ```
 
 ---
 ## Input Format
 
 ```
-The only argument given is the integer array A.
+The First argument given is the integer array A.
+The Second argument given is the integer B.
 ```
 
 ---
 ## Output Format
 
 ```
-Return the single element that appears only once.
+Return index of B in array A, otherwise return -1.
 ```
 
 ---
@@ -42,10 +44,12 @@ Return the single element that appears only once.
 
 ```markdown
 Input 1:
-> A = [1, 1, 7]
+> A = [4, 5, 6, 7, 0, 1, 2, 3]
+> B = 4
 
 Input 2:
-> A = [2, 3, 3]
+> A = [9, 10, 3, 5, 6, 8 ]
+> B = 5
 ```
 
 ---
@@ -53,10 +57,10 @@ Input 2:
 
 ```markdown
 Output 1:
-> 7
+> 0
 
 Output 2:
-> 2
+> 3
 ```
 
 ---
@@ -65,11 +69,11 @@ Output 2:
 ### Explanation 1
 
 ```markdown
-7 appears once.
+Target 4 is found at index 0 in A.
 ```
 
 ### Explanation 2
 
 ```markdown
-2 appears once.
+Target 5 is found at index 3 in A.
 ```
