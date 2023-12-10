@@ -16,8 +16,8 @@ A subarray sum denotes the sum of all the elements of that subarray.
 ## Problem Constraints
 
 ```
-1 <= N <= 105
-1 <= Ai <= 10 4
+1 <= N <= 10^5
+1 <= Ai <= 10^4
 ```
 
 ---

@@ -15,7 +15,7 @@ You are given two integers A and B.
 ## Problem Constraints
 
 ```
-1 <= A <= 109
+1 <= A <= 10^9
 0 <= B <= 30
 ```
 

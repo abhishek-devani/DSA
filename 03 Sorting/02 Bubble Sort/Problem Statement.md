@@ -13,8 +13,8 @@ Return the array after sorting.
 ## Problem Constraints
 
 ```
-1 <= N <= 103
-1 <= Ai <= 109
+1 <= N <= 10^3
+1 <= Ai <= 10^9
 ```
 
 ---

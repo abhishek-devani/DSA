@@ -12,7 +12,7 @@ Given an unsorted integer array, A of size N. Find the first missing positive in
 
 ```
 1 <= N <= 1000000
--109 <= A[i] <= 109
+-10^9 <= A[i] <= 10^9
 ```
 
 ---

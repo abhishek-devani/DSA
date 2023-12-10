@@ -13,7 +13,7 @@ His cows don't like this barn layout and become aggressive towards each other on
 
 ```
 2 <= N <= 100000
-0 <= A[i] <= 109
+0 <= A[i] <= 10^9
 2 <= B <= N
 ```
 

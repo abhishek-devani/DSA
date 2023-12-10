@@ -1,4 +1,4 @@
-# 02 Equilibrium index of an array (Kadane's Algorithm)
+# 02 Max Sum Contiguous Subarray (Kadane's Algorithm)
 
 ## Problem Description
 

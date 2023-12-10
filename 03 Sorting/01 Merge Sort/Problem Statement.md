@@ -10,8 +10,8 @@ Given an integer array A, sort the array using Merge Sort.
 ## Problem Constraints
 
 ```
-1 <= |A| <= 105
-1 <= A[i] <= 109
+1 <= |A| <= 10^5
+1 <= A[i] <= 10^9
 ```
 
 ---

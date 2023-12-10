@@ -10,7 +10,7 @@ Calculate and return the minimum time required to paint all boards under the con
 ```
 
 ```markdown
-Note:
+Notes:
 > 2 painters cannot share a board to paint. That is to say, a board cannot be painted partially by one painter, and partially by another.
 > A painter will only paint contiguous boards. This means a configuration where painter 1 paints boards 1 and 3 but not 2 is invalid.
 > Return the ans % 10000003.
@@ -21,9 +21,9 @@ Note:
 
 ```
 1 <= A <= 1000
-1 <= B <= 106
-1 <= N <= 105
-1 <= C[i] <= 106
+1 <= B <= 10^6
+1 <= N <= 10^5
+1 <= C[i] <= 10^6
 ```
 
 ---

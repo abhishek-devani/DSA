@@ -20,7 +20,7 @@ You can assume that no duplicates exist in the array.
 
 ```
 1 <= N <= 1000000
-1 <= A[i] <= 109
+1 <= A[i] <= 10^9
 All elements in A are Distinct.
 ```
 

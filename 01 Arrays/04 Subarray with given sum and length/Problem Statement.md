@@ -12,10 +12,10 @@ Return 1 if there exists a subarray with length B having sum C and 0 otherwise.
 ## Problem Constraints
 
 ```
-1 <= N <= 105
-1 <= A[i] <= 104
+1 <= N <= 10^5
+1 <= A[i] <= 10^4
 1 <= B <= N
-1 <= C <= 109
+1 <= C <= 10^9
 ```
 
 ---

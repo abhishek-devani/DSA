@@ -10,7 +10,7 @@ Write a function that takes an integer and returns the number of 1 bits present 
 ## Problem Constraints
 
 ```
-1 <= A <= 109
+1 <= A <= 10^9
 ```
 
 ---

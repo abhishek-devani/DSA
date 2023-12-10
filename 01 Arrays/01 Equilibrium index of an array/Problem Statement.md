@@ -9,7 +9,7 @@ If there are no elements that are at lower indexes or at higher indexes, then th
 ```
 
 ```markdown
-Note:
+Notes:
 > Array indexing starts from 0.
 > If there is no equilibrium index then return -1.
 > If there are more than one equilibrium indexes then return the minimum index.
@@ -19,8 +19,8 @@ Note:
 ## Problem Constraints
 
 ```
-1 <= N <= 105
--105 <= A[i] <= 105
+1 <= N <= 10^5
+-10^5 <= A[i] <= 10^5
 ```
 
 ---
