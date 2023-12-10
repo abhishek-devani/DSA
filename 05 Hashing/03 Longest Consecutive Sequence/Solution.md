@@ -1,4 +1,4 @@
-# Solutions
+# Solution
 
 ```java
 public class Solution {
