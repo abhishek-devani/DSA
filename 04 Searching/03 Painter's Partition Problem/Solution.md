@@ -1,5 +1,13 @@
 # Solutions
 
+## Steps
+
+```markdown
+1. Find the maximum time required to finish all the block by one painter. (sum of all the elements).
+2. Find the minimum time require to finish one block. (max element of array).
+3. Check whether worker finishes work within given time.
+```
+
 ## Solution 1
 
 ```java
@@ -32,7 +40,7 @@ public class Solution {
         long noOfPainters = 1;
 
         for (int i = 0; i < n; i++) {
-            sum += (tasks[i]);
+            sum += tasks[i];
             if (sum > mid) {
                 noOfPainters++;
                 sum = tasks[i];
