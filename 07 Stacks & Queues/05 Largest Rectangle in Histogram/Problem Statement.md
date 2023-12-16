@@ -1,4 +1,4 @@
-# 04 Nearest Smaller Element
+# 05 Largest Rectangle in Histogram
 
 ## Problem Description
 
