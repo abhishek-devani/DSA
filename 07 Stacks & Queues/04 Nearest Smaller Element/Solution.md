@@ -48,20 +48,12 @@ public class Solution {
 
         for (int i = 0; i < n; i++) {
 
-            if (A[i] > stack.peek()) {
-                
-                ans[i] = stack.peek();
-                stack.push(A[i]);
-            
-            } else {
-                
-                while (A[i] <= stack.peek()) {
-                    stack.pop();
-                }
-                ans[i] = stack.peek();
-                stack.push(A[i]);
-
+            while (A[i] <= stack.peek()) {
+                stack.pop();
             }
+            
+            ans[i] = stack.peek();
+            stack.push(A[i]);
 
         }
         return ans;

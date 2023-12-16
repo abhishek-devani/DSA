@@ -88,20 +88,20 @@ Each function should return the values as defined by the problem statement.
 
 ```markdown
 Let the initial stack be : []
-1) push(1) : [1]
-2) push(2) : [1, 2]
-3) push(-2) : [1, 2, -2]
-4) getMin() : Returns -2 as the minimum element in the stack is -2.
-5) pop() : Return -2 as -2 is the topmost element in the stack.
-6) getMin() : Returns 1 as the minimum element in stack is 1.
-7) top() : Return 2 as 2 is the topmost element in the stack.
+1) push(1)    :   [1]
+2) push(2)    :   [1, 2]
+3) push(-2)   :   [1, 2, -2]
+4) getMin()   :   Returns -2 as the minimum element in the stack is -2.
+5) pop()      :   Return -2 as -2 is the topmost element in the stack.
+6) getMin()   :   Returns 1 as the minimum element in stack is 1.
+7) top()      :   Return 2 as 2 is the topmost element in the stack.
 ```
 
 ### Explanation 2
 
 ```markdown
 Let the initial stack be : []
-1) getMin() : Returns -1 as the stack is empty.
-2) pop() :  Returns nothing as the stack is empty.
-3) top() : Returns -1 as the stack is empty.
+1) getMin()   :   Returns -1 as the stack is empty.
+2) pop()      :   Returns nothing as the stack is empty.
+3) top()      :   Returns -1 as the stack is empty.
 ```
